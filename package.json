@@ -2,15 +2,18 @@
   "name": "mockserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mock-create": "node create.js",
-    "mock-reset": "node reset.js"
+    "mock-create": "node app/create.js",
+    "mock-reset": "node app/reset.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mockserver-client": "^1.0.12"
+  },
+  "devDependencies": {
+    "mockserver-grunt": "^1.0.33"
   }
 }
